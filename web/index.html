@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rebrander</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel">
+        <p class="eyebrow">Go CLI + controlled SaaS</p>
+        <h1>Rebrander</h1>
+        <p class="lead">Transform project identity across repositories, code, configuration, assets, and deployment instructions while keeping architecture and behavior intact.</p>
+        <form id="rebrand-form" class="form">
+          <label>
+            Source repository or organization
+            <input name="source" type="url" placeholder="https://github.com/original/project" required>
+          </label>
+          <label>
+            Target repository or organization
+            <input name="target" type="url" placeholder="https://github.com/newbrand/project" required>
+          </label>
+          <button type="submit">Generate plan</button>
+        </form>
+        <pre id="preview" class="preview" aria-live="polite"></pre>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
+
