@@ -1,8 +1,6 @@
 package report
 
-import (
-	"strings"
-)
+import "strings"
 
 type Model struct {
 	Title   string
