@@ -35,4 +35,3 @@ func run(args []string) error {
 	opts.Target = flags.Arg(1)
 	return app.New().Run(context.Background(), opts)
 }
-

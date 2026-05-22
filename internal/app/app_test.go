@@ -15,4 +15,3 @@ func TestOptionsValidateRejectsMode(t *testing.T) {
 		t.Fatal("expected invalid mode error")
 	}
 }
-

@@ -66,4 +66,3 @@ func (o Options) validate() error {
 		return fmt.Errorf("invalid mode %q", o.Mode)
 	}
 }
-

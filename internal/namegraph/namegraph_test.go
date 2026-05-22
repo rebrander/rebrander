@@ -18,4 +18,3 @@ func TestBuildIncludesBrandVariants(t *testing.T) {
 		t.Fatalf("expected upper brand mapping, got %#v", got)
 	}
 }
-
